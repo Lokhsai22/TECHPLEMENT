@@ -1,15 +1,20 @@
-  Random Password Generator
+Random Password Generator
 -------------------------
 
 This command-line tool generates random passwords with customizable length and complexity.
 
 Usage:
+
   python password_generator.py 12 -u -l -d -s 
 
 Options:
+
   -u, --uppercase      Include uppercase letters in the password.
+  
   -l, --lowercase      Include lowercase letters in the password.
+  
   -d, --digits         Include digits in the password.
+  
   -s, --special        Include special characters in the password.
 
 Examples:
